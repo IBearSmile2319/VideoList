@@ -15,7 +15,7 @@ module.exports = {
       '@pages': path.resolve(__dirname, 'src/pages'),
       '@icons': path.resolve(__dirname, 'src/assets/img/ion-icons'),
       '@files': path.resolve(__dirname, 'src/assets/files'),
-      '@images': path.resolve(__dirname, 'src/assets/img'),
+      '@img': path.resolve(__dirname, 'src/assets/img'),
       '@css': path.resolve(__dirname, 'src/assets/css'),
 
     }
@@ -55,6 +55,7 @@ module.exports = {
         use: [
           {
             loader: 'file-loader',
+            options:{name:'assets/[hash].[ext]'}
           },
         ],
       },

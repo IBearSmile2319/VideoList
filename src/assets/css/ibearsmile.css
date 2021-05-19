@@ -1,0 +1,11 @@
+@import "./vars.css";
+@import "./media.css";
+body {
+    margin: 0;
+    font-family: var(--theme-font);
+    background: var(--main-color);
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
