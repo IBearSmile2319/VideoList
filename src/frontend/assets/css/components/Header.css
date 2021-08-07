@@ -55,3 +55,7 @@
     margin-right: 8px;
     width: 40px;
   }
+
+  .isLogin,.isRegister{
+    background-color: #21c08b;
+  }
